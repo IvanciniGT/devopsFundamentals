@@ -14,7 +14,7 @@ Por qué quiero automatizar?
 
 Que problemas trae consigo la automatización?
 - Quién sabe de esto? 
-- Hay que saber de mochas cosas nuevas
+- Hay que saber de muchas cosas nuevas
 - Las organizaciones tardan años en adoptar una cultura devops
 
 ---
@@ -135,7 +135,8 @@ Monitorización/Operación
         KUBERNETES/OPENSHIFT
 ---
 
-        Automatizar el manejo de cualquier código
+        Usamos código para automatizar cualquier cosa... y hay que gestionarlo              √
+            Automatizar el manejo de cualquier código
         Complemento al métodologías ágiles                                                  √
         Relacionado con Integración Continua / Entrega Continua / Despliegue Continuo       √
         Automatizar los procesos de desarrollo, prueba, integración y puesta en producción  √
