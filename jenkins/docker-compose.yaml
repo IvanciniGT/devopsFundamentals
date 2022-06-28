@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+    jenkins:
+        container_name: mijenkins
+        image: jenkins/jenkins:lts-jdk11       # Imagen de contenedor
+        volumes:
+            - /home/ubuntu/environment/datos/jenkins:/var/jenkins_home # Nos asegura que los datos tengan persistencia
+        ports:
+            - 8080:8080 
+            - 50000:50000     # Puertos de comunicacion
+
+# $ mkdir -p /home/ubuntu/environment/datos/jenkins
+# $ chmod 777 -R  /home/ubuntu/environment/datos
+# $ docker-compose up -d 
